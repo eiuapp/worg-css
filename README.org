@@ -1,0 +1,18 @@
+* css for org-exported html
+** worg
+
+use the [[orgmode.org-worg][https://orgmode.org/worg/]] css.
+let your org exported html looks like:
+- https://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html
+
+** prerequisites
+
+#+BEGIN_SRC shell
+git submodule add -b master --name worg-css https://github.com/eiuapp/worg-css.git your_path
+#+END_SRC
+
+** install
+
+#+begin_src emacs-lisp :tangle yes
+(load "/path/to/worg-css/emacs.el")
+#+end_src
