@@ -90,9 +90,13 @@
 <link rel=\"SHORTCUT ICON\" href=\"https://orgmode.org/org-mode-unicorn.ico\" type=\"image/x-icon\" />
 <link rel=\"icon\" href=\"https://orgmode.org/org-mode-unicorn.ico\" type=\"image/ico\" />"
 	   :recursive t
-	   :html-preamble ,(with-temp-buffer (insert-file-contents "~/install/git/worg/preamble.html") (buffer-string))
-	   :html-postamble "<div id=\"show_source\"><input type=\"button\" value=\"Show Org source\" onClick='show_org_source()'></div><div id=\"license\"><p>Documentation from the orgmode.org/worg/ website (either in its HTML format or in its Org format) is licensed under the <a href=\"http://www.gnu.org/copyleft/fdl.html\">GNU Free Documentation License version 1.3</a> o\
-r later.  The code examples and css stylesheets are licensed under the <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public License v3</a> or later.</p></div>")
+	   :html-preamble nil
+	   ;; :html-preamble ,(with-temp-buffer (insert-file-contents "~/install/git/worg/preamble.html") (buffer-string))
+       :html-postamble nil
+       ;; :html-postamble "<div id=\"license\"><p>Documentation from the eiu.app website (either in its HTML format or in its Org format) is licensed under the <a href=\"http://www.gnu.org/copyleft/fdl.html\">GNU Free Documentation License version 1.3</a> or later.  The code examples and css stylesheets are licensed under the <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public License v3</a> or later.</p></div>"
+       )
+;; 	   :html-postamble "<div id=\"show_source\"><input type=\"button\" value=\"Show Org source\" onClick='show_org_source()'></div><div id=\"license\"><p>Documentation from the orgmode.org/worg/ website (either in its HTML format or in its Org format) is licensed under the <a href=\"http://www.gnu.org/copyleft/fdl.html\">GNU Free Documentation License version 1.3</a> o\
+;; r later.  The code examples and css stylesheets are licensed under the <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public License v3</a> or later.</p></div>")
 	  ("worg-pages"
 	   :base-directory ,worg-base-directory
 	   :base-extension "org"
@@ -112,9 +116,13 @@ r later.  The code examples and css stylesheets are licensed under the <a href=\
 <link rel=\"SHORTCUT ICON\" href=\"https://orgmode.org/org-mode-unicorn.ico\" type=\"image/x-icon\" />
 <link rel=\"icon\" href=\"https://orgmode.org/org-mode-unicorn.ico\" type=\"image/ico\" />"
 	   :recursive t
-	   :html-preamble ,(with-temp-buffer (insert-file-contents "~/install/git/worg/preamble.html") (buffer-string))
-	   :html-postamble "<div id=\"show_source\"><input type=\"button\" value=\"Show Org source\" onClick='show_org_source()'></div><div id=\"license\"><p>Documentation from the orgmode.org/worg/ website (either in its HTML format or in its Org format) is licensed under the <a href=\"http://www.gnu.org/copyleft/fdl.html\">GNU Free Documentation License version 1.3</a> o\
-r later.  The code examples and css stylesheets are licensed under the <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public License v3</a> or later.</p></div>")
+	   :html-preamble nil
+	   ;; :html-preamble ,(with-temp-buffer (insert-file-contents "~/install/git/worg/preamble.html") (buffer-string))
+       :html-postamble nil
+       ;; :html-postamble "<div id=\"license\"><p>Documentation from the eiu.app website (either in its HTML format or in its Org format) is licensed under the <a href=\"http://www.gnu.org/copyleft/fdl.html\">GNU Free Documentation License version 1.3</a> or later.  The code examples and css stylesheets are licensed under the <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public License v3</a> or later.</p></div>"
+       )
+;; 	   :html-postamble "<div id=\"show_source\"><input type=\"button\" value=\"Show Org source\" onClick='show_org_source()'></div><div id=\"license\"><p>Documentation from the orgmode.org/worg/ website (either in its HTML format or in its Org format) is licensed under the <a href=\"http://www.gnu.org/copyleft/fdl.html\">GNU Free Documentation License version 1.3</a> o\
+;; r later.  The code examples and css stylesheets are licensed under the <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public License v3</a> or later.</p></div>")
 	  ("worg-code"
 	   :base-directory ,worg-base-code-directory
 	   :base-extension "html\\|css\\|png\\|js\\|bz2\\|el\\|sty\\|awk\\|pl\\|texi\\|xcf\\|po\\|pot\\|inc\\|sh"
