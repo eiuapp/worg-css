@@ -84,11 +84,16 @@
 	   :publishing-function (org-html-publish-to-html)
 	   :section-numbers nil
 	   :table-of-contents nil
-	   :html-head "<link rel=\"stylesheet\" title=\"Standard\" href=\"https://orgmode.org/worg/style/worg.css\" type=\"text/css\" />
-<link rel=\"alternate stylesheet\" title=\"Zenburn\" href=\"https://orgmode.org/worg/style/worg-zenburn.css\" type=\"text/css\" />
-<link rel=\"alternate stylesheet\" title=\"Classic\" href=\"https://orgmode.org/worg/style/worg-classic.css\" type=\"text/css\" />
-<link rel=\"SHORTCUT ICON\" href=\"https://orgmode.org/org-mode-unicorn.ico\" type=\"image/x-icon\" />
-<link rel=\"icon\" href=\"https://orgmode.org/org-mode-unicorn.ico\" type=\"image/ico\" />"
+	   :html-head "<link rel=\"stylesheet\" title=\"Standard\" href=\"/html/style/worg.css\" type=\"text/css\" />
+<link rel=\"alternate stylesheet\" title=\"Zenburn\" href=\"/html/style/worg-zenburn.css\" type=\"text/css\" />
+<link rel=\"alternate stylesheet\" title=\"Classic\" href=\"/html/style/worg-classic.css\" type=\"text/css\" />
+<link rel=\"SHORTCUT ICON\" href=\"/html/style/org-mode-unicorn.ico\" type=\"image/x-icon\" />
+<link rel=\"icon\" href=\"/html/style/org-mode-unicorn.ico\" type=\"image/ico\" />"
+;; 	   :html-head "<link rel=\"stylesheet\" title=\"Standard\" href=\"https://orgmode.org/worg/style/worg.css\" type=\"text/css\" />
+;; <link rel=\"alternate stylesheet\" title=\"Zenburn\" href=\"https://orgmode.org/worg/style/worg-zenburn.css\" type=\"text/css\" />
+;; <link rel=\"alternate stylesheet\" title=\"Classic\" href=\"https://orgmode.org/worg/style/worg-classic.css\" type=\"text/css\" />
+;; <link rel=\"SHORTCUT ICON\" href=\"https://orgmode.org/org-mode-unicorn.ico\" type=\"image/x-icon\" />
+;; <link rel=\"icon\" href=\"https://orgmode.org/org-mode-unicorn.ico\" type=\"image/ico\" />"
 	   :recursive t
 	   :html-preamble nil
 	   ;; :html-preamble ,(with-temp-buffer (insert-file-contents "~/install/git/worg/preamble.html") (buffer-string))
@@ -110,11 +115,16 @@
 	   :htmlized-source t
 	   :section-numbers nil
 	   :table-of-contents nil
-	   :html-head "<link rel=\"stylesheet\" title=\"Standard\" href=\"https://orgmode.org/worg/style/worg.css\" type=\"text/css\" />
-<link rel=\"alternate stylesheet\" title=\"Zenburn\" href=\"https://orgmode.org/worg/style/worg-zenburn.css\" type=\"text/css\" />
-<link rel=\"alternate stylesheet\" title=\"Classic\" href=\"https://orgmode.org/worg/style/worg-classic.css\" type=\"text/css\" />
-<link rel=\"SHORTCUT ICON\" href=\"https://orgmode.org/org-mode-unicorn.ico\" type=\"image/x-icon\" />
-<link rel=\"icon\" href=\"https://orgmode.org/org-mode-unicorn.ico\" type=\"image/ico\" />"
+	   :html-head "<link rel=\"stylesheet\" title=\"Standard\" href=\"/html/style/worg.css\" type=\"text/css\" />
+<link rel=\"alternate stylesheet\" title=\"Zenburn\" href=\"/html/style/worg-zenburn.css\" type=\"text/css\" />
+<link rel=\"alternate stylesheet\" title=\"Classic\" href=\"/html/style/worg-classic.css\" type=\"text/css\" />
+<link rel=\"SHORTCUT ICON\" href=\"/html/style/org-mode-unicorn.ico\" type=\"image/x-icon\" />
+<link rel=\"icon\" href=\"/html/style/org-mode-unicorn.ico\" type=\"image/ico\" />"
+;; 	   :html-head "<link rel=\"stylesheet\" title=\"Standard\" href=\"https://orgmode.org/worg/style/worg.css\" type=\"text/css\" />
+;; <link rel=\"alternate stylesheet\" title=\"Zenburn\" href=\"https://orgmode.org/worg/style/worg-zenburn.css\" type=\"text/css\" />
+;; <link rel=\"alternate stylesheet\" title=\"Classic\" href=\"https://orgmode.org/worg/style/worg-classic.css\" type=\"text/css\" />
+;; <link rel=\"SHORTCUT ICON\" href=\"https://orgmode.org/org-mode-unicorn.ico\" type=\"image/x-icon\" />
+;; <link rel=\"icon\" href=\"https://orgmode.org/org-mode-unicorn.ico\" type=\"image/ico\" />"
 	   :recursive t
 	   :html-preamble nil
 	   ;; :html-preamble ,(with-temp-buffer (insert-file-contents "~/install/git/worg/preamble.html") (buffer-string))
