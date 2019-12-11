@@ -78,7 +78,7 @@
 	  ("worg-org-faq"
 	   :base-directory ,worg-base-directory
 	   :base-extension "dummy"
-	   :include ("org-faq.org")
+	   ;; :include ("org-faq.org")
 	   :html-extension "html"
 	   :publishing-directory ,worg-publish-directory
 	   :publishing-function (org-html-publish-to-html)
