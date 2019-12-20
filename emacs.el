@@ -57,8 +57,8 @@
 
 ;; (setq worg-base "~/org/blog/org-sources/")
 ;; (setq worg-htmlroot "~/org/blog_html/")
-(setq worg-base "~/install/git/org-sources/")
-(setq worg-htmlroot "~/install/git/blog-org-source-html/")
+(setq worg-base "~/install/git/wiki/")
+(setq worg-htmlroot "~/install/git/wiki-html/")
 ;; (setq worg-base "~/install/git/worg/")
 ;; (setq worg-htmlroot "~/worg_html/")
 (setq worg-base-directory worg-base)
